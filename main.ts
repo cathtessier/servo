@@ -22,15 +22,15 @@ input.onButtonPressed(Button.AB, function () {
     pins.digitalWritePin(DigitalPin.P15, 0)
 })
 input.onButtonPressed(Button.B, function () {
-    servos.P0.setAngle(100)
+    servos.P0.setAngle(80)
     basic.pause(500)
-    servos.P0.setAngle(19)
+    servos.P0.setAngle(3)
     basic.pause(500)
     servos.P0.stop()
 })
 let Vg = 0
 let Vd = 0
-servos.P0.setAngle(19)
+servos.P0.setAngle(3)
 basic.pause(1000)
 servos.P0.stop()
 Vd = 0
